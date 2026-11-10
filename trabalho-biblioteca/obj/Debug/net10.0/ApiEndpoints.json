@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "trabalho_biblioteca.Controllers.LivroController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/livros",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "trabalho_biblioteca.Dto.CriarLivroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
