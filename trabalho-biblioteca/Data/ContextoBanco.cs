@@ -7,9 +7,9 @@ namespace trabalho_biblioteca.Data
     {
         public ContextoBanco(DbContextOptions<ContextoBanco> options) : base(options) { }
 
-        public DbSet<Autor> Autores { get; set; } = null;
-        public DbSet<Emprestimo> Emprestimos { get; set; } = null;
-        public DbSet<Livro> Livros { get; set; } = null;
+        public DbSet<Autor> Autores { get; set; } = null!;
+        public DbSet<Emprestimo> Emprestimos { get; set; } = null!;
+        public DbSet<Livro> Livros { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

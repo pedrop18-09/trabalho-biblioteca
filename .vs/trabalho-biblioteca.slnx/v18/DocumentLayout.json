@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\repositories\\autorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\repositories\\autorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\services\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\services\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\interfaces\\iautorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\interfaces\\iautorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\exceptions\\conflitoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\exceptions\\conflitoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\data\\contextobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\data\\contextobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\exceptions\\validacaoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\exceptions\\validacaoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\exceptions\\naoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\exceptions\\naoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\dto\\autorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\dto\\autorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\interfaces\\iautorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\interfaces\\iautorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\dto\\autorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\dto\\autorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\pedro p\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Repositories\\AutorRepository.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Repositories\\AutorRepository.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Repositories\\AutorRepository.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Repositories\\AutorRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:43:48.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextoBanco.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Data\\ContextoBanco.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Data\\ContextoBanco.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Data\\ContextoBanco.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Data\\ContextoBanco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T15:55:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConflitoException.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Exceptions\\ConflitoException.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Exceptions\\ConflitoException.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Exceptions\\ConflitoException.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Exceptions\\ConflitoException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T15:51:42.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutorService.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Services\\AutorService.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Services\\AutorService.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Services\\AutorService.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Services\\AutorService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T14:21:02.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Controllers\\AutorController.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Controllers\\AutorController.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Controllers\\AutorController.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Controllers\\AutorController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:26:36.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAutorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Interfaces\\IAutorRepository.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Interfaces\\IAutorRepository.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Interfaces\\IAutorRepository.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Interfaces\\IAutorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:39:13.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidacaoException.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Exceptions\\ValidacaoException.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Exceptions\\ValidacaoException.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Exceptions\\ValidacaoException.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Exceptions\\ValidacaoException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T14:41:49.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NaoEncontradoException.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Exceptions\\NaoEncontradoException.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Exceptions\\NaoEncontradoException.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Exceptions\\NaoEncontradoException.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Exceptions\\NaoEncontradoException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T15:38:01.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAutorService.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Interfaces\\IAutorService.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Interfaces\\IAutorService.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Interfaces\\IAutorService.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Interfaces\\IAutorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:55:25.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutorRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Dto\\AutorRequest.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Dto\\AutorRequest.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Dto\\AutorRequest.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Dto\\AutorRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:29:10.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Dto\\AutorResponse.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Dto\\AutorResponse.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Dto\\AutorResponse.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Dto\\AutorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T14:00:33.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Models\\Autor.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Models\\Autor.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Models\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:29:15.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Users\\Pedro P\\source\\repos\\trabalho-biblioteca\\trabalho-biblioteca\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Controllers\\LivroController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T13:26:17.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
