@@ -1,4 +1,4 @@
-
+using Scalar.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 using trabalho_biblioteca.Data;
@@ -27,6 +27,8 @@ namespace trabalho_biblioteca
 
             builder.Services.AddScoped<ILivroService, LivroService>();
             builder.Services.AddScoped<ILivroRepository, LivroRepository>();
+            builder.Services.AddScoped<IAutorRepository, AutorRepository>();
+            builder.Services.AddScoped<IAutorService, AutorService>();
 
             builder.Services.AddDbContext<ContextoBanco>(options =>
         options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -37,7 +39,10 @@ namespace trabalho_biblioteca
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.MapScalarApiReference();
             }
+
+
 
             app.UseHttpsRedirection();
 

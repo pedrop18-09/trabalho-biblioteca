@@ -60,9 +60,15 @@ namespace trabalho_biblioteca.Controllers
                 var autorAtualizado = _autorService.AtualizarAutor(id, request);
                 return Ok(autorAtualizado);
             }
+
             catch (ValidacaoException ex)
             {
                 return BadRequest(ex.Message);
+            }
+
+            catch (NaoEncontradoException ex)
+            {
+                return NotFound(ex.Message);
             }
         }
 
@@ -72,11 +78,17 @@ namespace trabalho_biblioteca.Controllers
             try
             {
                 _autorService.DeletarAutor(id);
-                return NoContent();
+                return NoContent(); 
             }
+
             catch (NaoEncontradoException ex)
             {
                 return NotFound(ex.Message);
+            }
+
+            catch (ConflitoException ex)
+            {
+                return Conflict(ex.Message);
             }
         }
     }
