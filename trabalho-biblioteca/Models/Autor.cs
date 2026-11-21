@@ -8,6 +8,6 @@ namespace trabalho_biblioteca.Models
         public string Nome { get; set; }
         public string Nacionalidade { get; set; }
         [JsonIgnore]
-        public virtual List<Livro> Livros { get; set; }
+        public virtual List<Livro> Livros { get; set; } = new();
     }
 }

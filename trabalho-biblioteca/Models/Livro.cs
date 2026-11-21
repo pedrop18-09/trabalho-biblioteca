@@ -11,7 +11,7 @@ namespace trabalho_biblioteca.Models
         public int AutorId { get; set; }
         public virtual Autor? Autor { get; set; }
         [JsonIgnore]
-        public virtual List<Emprestimo> Emprestimos { get; set; }
+        public virtual List<Emprestimo> Emprestimos { get; set; } = new();
 
     }
 }
