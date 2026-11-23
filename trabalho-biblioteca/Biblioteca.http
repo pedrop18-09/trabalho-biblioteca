@@ -1,0 +1,165 @@
+@trabalho_biblioteca_HostAddress = http://localhost:5044
+@autorId = 1
+@livroId = 1
+@emprestimoId = 1
+@autorSemLivrosId = 2
+@livroSemEmprestimosId = 2
+@isbn = 9788535910663
+@isbnSemEmprestimos = 9788535914845
+
+POST {{trabalho_biblioteca_HostAddress}}/api/autores
+Content-Type: application/json
+
+{
+  "nome": "Machado de Assis",
+  "nacionalidade": "Brasileira"
+}
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/autores
+Accept: application/json
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/autores/{{autorId}}
+Accept: application/json
+
+###
+
+PUT {{trabalho_biblioteca_HostAddress}}/api/autores/{{autorId}}
+Content-Type: application/json
+
+{
+  "nome": "Machado de Assis",
+  "nacionalidade": "Brasileira"
+}
+
+###
+
+POST {{trabalho_biblioteca_HostAddress}}/api/livros
+Content-Type: application/json
+
+{
+  "titulo": "Dom Casmurro",
+  "isbn": "{{isbn}}",
+  "anoPublicacao": 1899,
+  "autorId": {{autorId}}
+}
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/livros
+Accept: application/json
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/livros?autorId={{autorId}}
+Accept: application/json
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/livros/{{livroId}}
+Accept: application/json
+
+###
+
+PUT {{trabalho_biblioteca_HostAddress}}/api/livros/{{livroId}}
+Content-Type: application/json
+
+{
+  "titulo": "Dom Casmurro (edição revisada)",
+  "isbn": "{{isbn}}",
+  "anoPublicacao": 1899,
+  "autorId": {{autorId}}
+}
+
+###
+
+POST {{trabalho_biblioteca_HostAddress}}/api/emprestimos
+Content-Type: application/json
+
+{
+  "livroId": {{livroId}},
+  "nomeLeitor": "Maria Souza"
+}
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/emprestimos
+Accept: application/json
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/emprestimos?somenteAbertos=true
+Accept: application/json
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/emprestimos?somenteAbertos=false
+Accept: application/json
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/emprestimos/{{emprestimoId}}
+Accept: application/json
+
+###
+
+PUT {{trabalho_biblioteca_HostAddress}}/api/emprestimos/{{emprestimoId}}/devolucao
+Accept: application/json
+
+###
+
+DELETE {{trabalho_biblioteca_HostAddress}}/api/livros/{{livroId}}
+
+###
+
+DELETE {{trabalho_biblioteca_HostAddress}}/api/autores/{{autorId}}
+
+###
+
+POST {{trabalho_biblioteca_HostAddress}}/api/livros
+Content-Type: application/json
+
+{
+  "titulo": "Outro livro",
+  "isbn": "{{isbnSemEmprestimos}}",
+  "anoPublicacao": 2000,
+  "autorId": {{autorId}}
+}
+
+###
+
+DELETE {{trabalho_biblioteca_HostAddress}}/api/livros/{{livroSemEmprestimosId}}
+
+###
+
+POST {{trabalho_biblioteca_HostAddress}}/api/autores
+Content-Type: application/json
+
+{
+  "nome": "Clarice Lispector",
+  "nacionalidade": "Brasileira"
+}
+
+###
+
+DELETE {{trabalho_biblioteca_HostAddress}}/api/autores/{{autorSemLivrosId}}
+
+###
+
+POST {{trabalho_biblioteca_HostAddress}}/api/autores
+Content-Type: application/json
+
+{
+  "nome": "   ",
+  "nacionalidade": "Brasileira"
+}
+
+###
+
+GET {{trabalho_biblioteca_HostAddress}}/api/emprestimos/0
+Accept: application/json
+
+###

@@ -29,6 +29,8 @@ namespace trabalho_biblioteca
             builder.Services.AddScoped<ILivroRepository, LivroRepository>();
             builder.Services.AddScoped<IAutorRepository, AutorRepository>();
             builder.Services.AddScoped<IAutorService, AutorService>();
+            builder.Services.AddScoped<IEmprestimoService, EmprestimoService>();
+            builder.Services.AddScoped<IEmprestimoRepository, EmprestimoRepository>();
 
             builder.Services.AddDbContext<ContextoBanco>(options =>
         options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));

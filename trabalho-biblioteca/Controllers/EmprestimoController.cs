@@ -2,7 +2,6 @@
 using trabalho_biblioteca.Dto;
 using trabalho_biblioteca.Exceptions;
 using trabalho_biblioteca.Interfaces;
-using trabalho_biblioteca.Models;
 
 namespace trabalho_biblioteca.Controllers
 {
@@ -18,15 +17,9 @@ namespace trabalho_biblioteca.Controllers
         }
 
         [HttpGet]
-        public IActionResult ListarEmprestimos()
+        public IActionResult ListarEmprestimos([FromQuery] bool somenteAbertos = false)
         {
-            return Ok(_emprestimoService.ListarEmprestimos());
-        }
-
-        [HttpGet]
-        public IActionResult BuscarEmprestimos([FromQuery] bool buscarEmprestimos)
-        {
-            return Ok(_emprestimoService.BuscarEmprestimos(buscarEmprestimos));
+            return Ok(_emprestimoService.ListarEmprestimos(somenteAbertos));
         }
 
         [HttpGet("{id:int}")]
@@ -43,7 +36,7 @@ namespace trabalho_biblioteca.Controllers
         }
 
         [HttpPost]
-        public IActionResult CriarEmprestimo(EmprestimoRequest request)
+        public IActionResult CriarEmprestimo([FromBody] EmprestimoRequest request)
         {
             try
             {

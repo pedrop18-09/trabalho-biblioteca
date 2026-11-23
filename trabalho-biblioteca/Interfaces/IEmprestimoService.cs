@@ -5,8 +5,7 @@ namespace trabalho_biblioteca.Interfaces
 {
     public interface IEmprestimoService
     {
-        public List<Emprestimo> ListarEmprestimos();
-        public List<Emprestimo> BuscarEmprestimos(bool somenteAberto);
+        public List<Emprestimo> ListarEmprestimos(bool somenteAbertos = false);
         public Emprestimo ObterEmprestimoPorId(int id);
         public Emprestimo CriarEmprestimo(EmprestimoRequest request);
         public Emprestimo Editar(int id);
