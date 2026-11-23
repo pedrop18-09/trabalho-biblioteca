@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aula\\trabalho-biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\aula\\trabalho-biblioteca\\trabalho-biblioteca\\services\\emprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\services\\emprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|c:\\users\\aula\\trabalho-biblioteca\\trabalho-biblioteca\\biblioteca.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3F6D46A0-4FD8-4EC9-2789-F4C0440AB15F}|trabalho-biblioteca\\trabalho-biblioteca.csproj|solutionrelative:trabalho-biblioteca\\biblioteca.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmprestimoService.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\trabalho-biblioteca\\trabalho-biblioteca\\Services\\EmprestimoService.cs",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Services\\EmprestimoService.cs",
+              "ToolTip": "C:\\Users\\Aula\\trabalho-biblioteca\\trabalho-biblioteca\\Services\\EmprestimoService.cs",
+              "RelativeToolTip": "trabalho-biblioteca\\Services\\EmprestimoService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T22:44:54.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Biblioteca.http",
+              "DocumentMoniker": "C:\\Users\\Aula\\trabalho-biblioteca\\trabalho-biblioteca\\Biblioteca.http",
+              "RelativeDocumentMoniker": "trabalho-biblioteca\\Biblioteca.http",
+              "ToolTip": "C:\\Users\\Aula\\trabalho-biblioteca\\trabalho-biblioteca\\Biblioteca.http",
+              "RelativeToolTip": "trabalho-biblioteca\\Biblioteca.http",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAQwKEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-11-23T22:37:35.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

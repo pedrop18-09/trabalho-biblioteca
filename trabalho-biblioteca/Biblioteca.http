@@ -1,9 +1,9 @@
 @trabalho_biblioteca_HostAddress = http://localhost:5044
-@autorId = 1
-@livroId = 1
+@autorId = 2
+@livroId = 2
 @emprestimoId = 1
-@autorSemLivrosId = 2
-@livroSemEmprestimosId = 2
+@autorSemLivrosId = 3
+@livroSemEmprestimosId = 3
 @isbn = 9788535910663
 @isbnSemEmprestimos = 9788535914845
 
@@ -31,7 +31,7 @@ PUT {{trabalho_biblioteca_HostAddress}}/api/autores/{{autorId}}
 Content-Type: application/json
 
 {
-  "nome": "Machado de Assis",
+  "nome": "Fernando Pessoa",
   "nacionalidade": "Brasileira"
 }
 
